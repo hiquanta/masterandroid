@@ -1,0 +1,2 @@
+view.getX和view.getTranslationX区别
+http://blog.csdn.net/zhuhai__yizhi/article/details/44725917
