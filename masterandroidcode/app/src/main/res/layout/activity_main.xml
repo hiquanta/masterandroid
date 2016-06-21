@@ -6,15 +6,11 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="110px"
         android:orientation="vertical" >
-        <!--view.getX和view.getTranslationX区别-->
-     <!--ImageView距其父容器左边距离为70px-->
-        <ImageView
-            android:id="@+id/iv"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="70px"
-        android:src="@mipmap/ic_launcher" />
+        <com.hiquanta.masterandroidcode.CheckView
+            android:id="@+id/checkview"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </LinearLayout>
 </RelativeLayout>
