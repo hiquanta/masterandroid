@@ -27,19 +27,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //        initData();
 //        pieView= (PieView) findViewById(R.id.pieView);
 //        pieView.setData(mData);
-        checkView= (CheckView) findViewById(R.id.checkview);
-        checkView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(ischecked){
-                    checkView.unCheck();
-                    ischecked=false;
-                }else{
-                    checkView.check();
-                    ischecked=true;
-               }
-            }
-        });
+
+//        checkView= (CheckView) findViewById(R.id.checkview);
+//        checkView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if(ischecked){
+//                    checkView.unCheck();
+//                    ischecked=false;
+//                }else{
+//                    checkView.check();
+//                    ischecked=true;
+//               }
+//            }
+//        });
+
     }
     private void initData(){
         for (int i=0;i<5;i++){
