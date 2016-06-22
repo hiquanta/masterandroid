@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        鸭子 鸭子1=new 鸭子();
+
 //        iv = (ImageView) findViewById(R.id.iv);
 //        iv.setOnClickListener(this);
 //        initData();
