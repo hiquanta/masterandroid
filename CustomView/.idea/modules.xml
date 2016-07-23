@@ -3,7 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CustomView.iml" filepath="$PROJECT_DIR$/CustomView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GestureDectectorClass2/GestureDectectorClass2.iml" filepath="$PROJECT_DIR$/GestureDectectorClass2/GestureDectectorClass2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d_ScrollerView/d_ScrollerView.iml" filepath="$PROJECT_DIR$/d_ScrollerView/d_ScrollerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestureDectectorClass/gestureDectectorClass.iml" filepath="$PROJECT_DIR$/gestureDectectorClass/gestureDectectorClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestureDetectorInterface/gestureDetectorInterface.iml" filepath="$PROJECT_DIR$/gestureDetectorInterface/gestureDetectorInterface.iml" />
     </modules>
   </component>
 </project>

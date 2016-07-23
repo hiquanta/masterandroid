@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86,armeabi-v7a"
+    api-level="19"
+    format="7"
+    timestamp="5276668951071"
+    token="-4977327821034960017" >
+
+    <task
+        name="javac"
+        duration="65" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="36" />
+    <task
+        name="verifier"
+        duration="9" />
+
+    <artifact
+        location="E:\git\masterandroid\CustomView\d_ScrollerView\build\outputs\apk\d_ScrollerView-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="5276668951071" >
+        <artifact
+            location="E:\git\masterandroid\CustomView\d_ScrollerView\build\outputs\apk\d_ScrollerView-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
