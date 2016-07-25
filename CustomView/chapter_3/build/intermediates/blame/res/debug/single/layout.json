@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\git\\masterandroid\\CustomView\\chapter_3\\build\\intermediates\\res\\merged\\debug\\layout\\content_list_item.xml",
+        "source": "E:\\git\\masterandroid\\CustomView\\chapter_3\\src\\main\\res\\layout\\content_list_item.xml"
+    },
+    {
+        "merged": "E:\\git\\masterandroid\\CustomView\\chapter_3\\build\\intermediates\\res\\merged\\debug\\layout\\demo_2.xml",
+        "source": "E:\\git\\masterandroid\\CustomView\\chapter_3\\src\\main\\res\\layout\\demo_2.xml"
+    },
+    {
+        "merged": "E:\\git\\masterandroid\\CustomView\\chapter_3\\build\\intermediates\\res\\merged\\debug\\layout\\content_layout2.xml",
+        "source": "E:\\git\\masterandroid\\CustomView\\chapter_3\\src\\main\\res\\layout\\content_layout2.xml"
+    },
+    {
+        "merged": "E:\\git\\masterandroid\\CustomView\\chapter_3\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\git\\masterandroid\\CustomView\\chapter_3\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\git\\masterandroid\\CustomView\\chapter_3\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test.xml",
+        "source": "E:\\git\\masterandroid\\CustomView\\chapter_3\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "E:\\git\\masterandroid\\CustomView\\chapter_3\\build\\intermediates\\res\\merged\\debug\\layout\\activity_third.xml",
+        "source": "E:\\git\\masterandroid\\CustomView\\chapter_3\\src\\main\\res\\layout\\activity_third.xml"
+    },
+    {
+        "merged": "E:\\git\\masterandroid\\CustomView\\chapter_3\\build\\intermediates\\res\\merged\\debug\\layout\\content_layout.xml",
+        "source": "E:\\git\\masterandroid\\CustomView\\chapter_3\\src\\main\\res\\layout\\content_layout.xml"
+    },
+    {
+        "merged": "E:\\git\\masterandroid\\CustomView\\chapter_3\\build\\intermediates\\res\\merged\\debug\\layout\\demo_1.xml",
+        "source": "E:\\git\\masterandroid\\CustomView\\chapter_3\\src\\main\\res\\layout\\demo_1.xml"
+    }
+]
