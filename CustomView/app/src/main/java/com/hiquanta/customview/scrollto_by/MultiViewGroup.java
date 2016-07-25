@@ -55,6 +55,7 @@ public class MultiViewGroup extends ViewGroup {
 
 		int childCount = getChildCount();
 		Log.i(TAG, "--- onMeasure childCount is -->" + childCount);
+		logWidthAndHeight();
 		for (int i = 0; i < childCount; i++) {
 			View child = getChildAt(i);
 			// 设置每个子视图的大小 ， 即全屏
@@ -80,6 +81,9 @@ public class MultiViewGroup extends ViewGroup {
 			//三个子视图的在屏幕中的分布如下 [0 , 320] / [320,640] / [640,960]
 		}
 	}
-
+	private void logWidthAndHeight(){
+		Log.e("screenWidth",Scrollto_byMultiScreenActivity.screenWidth+"");
+		Log.e("scrrenHeight",Scrollto_byMultiScreenActivity.scrrenHeight+"");
+	}
 }
 

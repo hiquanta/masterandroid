@@ -12,13 +12,15 @@
 
         </activity>
         <activity android:name=".VelocityTrackerTest">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".scrollto_by.Scrollto_by_Activity">
+
+        </activity>
+        <activity android:name=".scrollto_by.Scrollto_byMultiScreenActivity">
+
+        </activity>
+        <activity android:name=".scrollertest.ScrollerMultiScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

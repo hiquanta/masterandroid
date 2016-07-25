@@ -35,7 +35,7 @@ public class Scrollto_byMultiScreenActivity extends Activity implements OnClickL
 		setContentView(R.layout.multiview);
 
 		//获取自定义视图的空间引用
-		mulTiViewGroup = (MultiViewGroup)findViewById(R.id.mymultiViewGroup);
+		mulTiViewGroup = (MultiViewGroup)findViewById(R.id.scroolermultiViewGroup);
 
 		bt_scrollLeft = (Button) findViewById(R.id.bt_scrollLeft);
 		bt_scrollRight = (Button) findViewById(R.id.bt_scrollRight);

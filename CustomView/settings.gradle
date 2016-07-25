@@ -1,5 +1,2 @@
 include ':app'
-include ':gestureDectectorClass'
-include ':gestureDetectorInterface'
-include ':GestureDectectorClass2'
 include ':d_ScrollerView'

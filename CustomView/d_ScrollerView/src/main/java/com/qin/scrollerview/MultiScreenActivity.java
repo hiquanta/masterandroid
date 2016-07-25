@@ -9,7 +9,10 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
+/**
+ *
+ * @author http://http://blog.csdn.net/qinjuning
+ */
 //带有可以切换屏的Activity
 public class MultiScreenActivity extends Activity implements OnClickListener {
 
@@ -49,22 +52,10 @@ public class MultiScreenActivity extends Activity implements OnClickListener {
 
 		switch (v.getId()) {
 			case R.id.bt_scrollLeft:
-				if(curscreen > 0) {  //防止屏幕越界
-					curscreen -- ;
-					Toast.makeText(MultiScreenActivity.this, "第" +(curscreen+1) + "屏", 300).show();
-				}
-				else
-					Toast.makeText(MultiScreenActivity.this, "当前已是第一屏",300).show();
-				mulTiViewGroup.scrollTo(curscreen * screenWidth , 0);
+				mulTiViewGroup.startMove() ; //下一屏
 				break;
 			case R.id.bt_scrollRight:
-				if (curscreen < 2 ){ //防止屏幕越界
-					curscreen ++ ;
-					Toast.makeText(MultiScreenActivity.this, "第" + (curscreen+1) + "屏", 300).show();
-				}
-				else
-					Toast.makeText(MultiScreenActivity.this, "当前已是最后一屏",300).show();
-				mulTiViewGroup.scrollTo(curscreen * screenWidth, 0);
+				mulTiViewGroup.stopMove() ; //停止滑动
 				break;
 		}
 	}

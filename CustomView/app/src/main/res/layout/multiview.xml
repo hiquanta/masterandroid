@@ -7,7 +7,7 @@
 		android:layout_height="wrap_content"  />
 
 	<com.hiquanta.customview.scrollto_by.MultiViewGroup
-		android:id="@+id/mymultiViewGroup" android:layout_below="@id/tv_hello"
+		android:id="@+id/scroolermultiViewGroup" android:layout_below="@id/tv_hello"
 		android:layout_height="wrap_content" android:layout_width="wrap_content">
 	</com.hiquanta.customview.scrollto_by.MultiViewGroup>
 	<Button android:id="@+id/bt_scrollLeft"

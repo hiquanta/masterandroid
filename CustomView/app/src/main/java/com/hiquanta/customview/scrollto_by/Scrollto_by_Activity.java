@@ -41,7 +41,7 @@ public class Scrollto_by_Activity extends Activity implements OnClickListener {
 				int tvscrllX = tv.getScrollX();
 				int tvscrllY = tv.getScrollY();
 				System.out.println( " tvscrllX ---> " + tvscrllX + " --- tvscrllY ---> "+tvscrllY);
-				bt_scrollLeft.scrollBy(20, 0);
+				//bt_scrollLeft.scrollBy(20, 0);
 				break;
 			case R.id.bt_scrollRight:
 				tv.scrollTo(-100, 0);
