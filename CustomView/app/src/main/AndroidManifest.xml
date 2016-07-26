@@ -21,9 +21,14 @@
 
         </activity>
         <activity android:name=".scrollertest.ScrollerMultiScreenActivity">
+
+        </activity>
+        <activity android:name="com.hiquanta.animation.AnimationActivity">
+
+        </activity>
+        <activity android:name=".scrollertest.DelayScrollActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
